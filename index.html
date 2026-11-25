@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Meet Aditya Shirole, a first-year engineering student exploring web development, conversational AI, and workflow automation.">
+    <title>Aditya Shirole · Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip" href="#home">Skip to content</a>
+    <header class="site-header">
+        <div class="wrap header-row">
+            <a class="brand" href="#home" aria-label="Aditya Shirole, home">
+                <span class="brand-icon" aria-hidden="true"><i class="leaf-pair"></i></span>
+                Aditya Shirole<span class="brand-dot" aria-hidden="true">.</span>
+            </a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a class="contact-link" href="#contact">Contact <span class="arrow-out" aria-hidden="true"></span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="reading-progress" aria-hidden="true"></div>
+    </header>
+
+    <main>
+        <section id="home" class="hero" aria-labelledby="hero-title">
+            <div class="wrap hero-grid">
+                <div class="hero-copy">
+                    <p class="kicker"><span class="tiny-line"></span> Welcome to my portfolio</p>
+                    <h1 id="hero-title">Aditya<br><em>Shirole.</em></h1>
+                    <p class="intro">I’m a first-year engineering student exploring <strong>web development, AI, and automation.</strong></p>
+                    <div class="actions">
+                        <a class="button primary" href="#projects">Explore projects <span aria-hidden="true">↓</span></a>
+                        <a class="button secondary" href="#contact">Contact me <span class="arrow-out" aria-hidden="true"></span></a>
+                    </div>
+                </div>
+                <div class="portrait-stage">
+                    <div class="orbit" aria-hidden="true"></div>
+                    <figure class="portrait-print">
+                        <div class="photo-mat">
+                            <div class="portrait-crop">
+                                <img src="assets/profile-upscaled.jpg" width="960" height="850" alt="Aditya Shirole">
+                            </div>
+                        </div>
+                        <figcaption>Aditya Shirole <span aria-hidden="true">✳</span></figcaption>
+                    </figure>
+                    <div class="olive-branch" aria-hidden="true">
+                        <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section-space" id="about" aria-labelledby="about-title">
+            <div class="wrap two-col">
+                <div>
+                    <p class="kicker">About me</p>
+                    <h2 id="about-title">Learning by <em>building.</em></h2>
+                    <p class="prose">I like figuring out how things work. A question about AI became a chatbot project. A repetitive task became a reason to learn n8n.</p>
+                    <p class="prose">My goal is to build a strong foundation in programming and use it to make everyday tasks a little easier.</p>
+                </div>
+                <div class="education">
+                    <h3>Education &amp; entrance exams</h3>
+                    <dl class="scores">
+                        <div><dt>CBSE · Class 10</dt><dd>92.60<span>%</span></dd></div>
+                        <div><dt>HSC · Class 12</dt><dd>69.60<span>%</span></dd></div>
+                        <div><dt>JEE Main</dt><dd>75 <small>percentile</small></dd></div>
+                        <div><dt>MHT CET</dt><dd>85 <small>percentile</small></dd></div>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section-space" id="skills" aria-labelledby="skills-title">
+            <div class="wrap">
+                <h2 id="skills-title">My <em>skills.</em></h2>
+                <ul class="skill-grid">
+                    <li><b aria-hidden="true">&lt;/&gt;</b><h3>HTML</h3><p>Semantic page structure</p></li>
+                    <li><b aria-hidden="true">{ }</b><h3>CSS</h3><p>Responsive layouts</p></li>
+                    <li><b aria-hidden="true">&gt;_</b><h3>Python</h3><p>Programming fundamentals</p></li>
+                    <li><b aria-hidden="true">n8n</b><h3>n8n Workflows</h3><p>Automating everyday tasks</p></li>
+                    <li><b aria-hidden="true">▶</b><h3>Basic Video Editing</h3><p>Trimming and sequencing</p></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="projects section-space" id="projects" aria-labelledby="projects-title">
+            <div class="wrap">
+                <h2 id="projects-title">Selected <em>projects.</em></h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-image chat-art" aria-hidden="true">
+                            <div class="chat-demo">
+                                <div class="demo-title"><i></i> Vyra <span>AI</span></div>
+                                <div class="bubble question">What is a workflow?</div>
+                                <div class="bubble reply">A set of steps that turns an input into a result.</div>
+                            </div>
+                        </div>
+                        <div class="project-text">
+                            <h3>Vyra AI Chatbot</h3>
+                            <p>A conversational AI project where I explore how to make questions and answers easy to follow in a chat interface.</p>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-image workflow-art" aria-hidden="true">
+                            <div class="node"><b>▶</b>Trigger</div><i></i>
+                            <div class="node"><b>✦</b>Summarise</div><i></i>
+                            <div class="node"><b>@</b>Email</div>
+                        </div>
+                        <div class="project-text">
+                            <h3>n8n Automations</h3>
+                            <p>I’m exploring workflows that turn AI news into email summaries and connect content creation with LinkedIn posting.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section-space" id="contact" aria-labelledby="contact-title">
+            <div class="wrap two-col">
+                <div>
+                    <p class="kicker">Contact</p>
+                    <h2 id="contact-title">Let’s <em>connect.</em></h2>
+                    <p class="prose">Have a question about a project or an idea to try together? I’d love to hear it.</p>
+                    <a class="email-link" href="mailto:aditya027shirole@gmail.com">aditya027shirole@gmail.com</a>
+                </div>
+                <form action="mailto:aditya027shirole@gmail.com" method="post" enctype="text/plain" aria-describedby="form-note">
+                    <div class="form-row">
+                        <label>Full Name<input name="Full Name" type="text" autocomplete="name" required></label>
+                        <label>Email Address<input name="Email Address" type="email" autocomplete="email" required></label>
+                    </div>
+                    <label>Subject<input name="Subject" type="text" required></label>
+                    <label>Message<textarea name="Message" rows="4" required></textarea></label>
+                    <button class="button primary" type="submit">Submit message <span class="arrow-out" aria-hidden="true"></span></button>
+                    <p id="form-note">Opens a draft in your default email app.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrap footer-row">
+            <p>© 2026 Aditya Shirole. All rights reserved.</p>
+            <nav aria-label="Social profiles">
+                <ul class="socials">
+                    <li><a href="https://github.com/blackmask027" target="_blank" rel="noopener noreferrer">GitHub <span class="arrow-out" aria-hidden="true"></span></a></li>
+                    <li><a href="https://www.linkedin.com/in/aditya-shirole-53765142b/" target="_blank" rel="noopener noreferrer">LinkedIn <span class="arrow-out" aria-hidden="true"></span></a></li>
+                    <li><a href="https://www.instagram.com/aditya027shirole/" target="_blank" rel="noopener noreferrer">Instagram <span class="arrow-out" aria-hidden="true"></span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
